@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+.Box{
+ max-width: 1000px;
+ display: flex;
+ flex-wrap: wrap;
+ margin: auto;
+
+ 
+}
+.box{
+    
+    height: 200px;
+    background-color:white;
+    display: flex;
+    flex: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid black;   
+}
+@media screen and (max-width:1024px){
+    .box{
+        flex: 35%;
+
+    }
+
+}
+@media screen and (max-width:320px){
+    .box{
+    flex: 50%;
+}
+}
+
+
+
